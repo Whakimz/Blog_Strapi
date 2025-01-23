@@ -10,11 +10,13 @@ Icon
 .Trashes
 ._*
 
+
 ############################
 # Linux
 ############################
 
 *~
+
 
 ############################
 # Windows
@@ -28,6 +30,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
 
 ############################
 # Packages
@@ -57,18 +60,17 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
+
 ############################
 # Logs and databases
 ############################
 
+.tmp
 *.log
 *.sql
 *.sqlite
 *.sqlite3
 
-# Allow .tmp/data.db
-.tmp/*
-!.tmp/data.db
 
 ############################
 # Misc.
@@ -118,6 +120,7 @@ coverage
 # Strapi
 ############################
 
+
 license.txt
 exports
 .strapi
@@ -125,6 +128,3 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
-
-# Allow .env
-!.env
